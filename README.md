@@ -19,17 +19,29 @@ The egg consists of [6 main components](Technical%20Drawings/Assembly%20Drawings
 - **Spring:** Provides a method of calibrating the fragility of the object, along with returning the Slide to it's original position.
 
 ### 1. Manufacture
-    The main structural components for the egg ([Shell](Assembly%20stls/Shell.stl), [Slide](Assembly%20stls/Slide.stl) and [Midplate](Assembly%20stls/Midplate.stl)) are 3D printed in PLA. The parts are designed with a low tolerance to ensure smooth travel, however some simple post-processing may be necessary for correct operation.
+The main structural components for the egg are 3D printed in PLA. The parts are designed with a low tolerance to ensure smooth travel, however some simple post-processing may be necessary for correct operation.
 
-    For each egg the printed parts list is:
-    - 2 x Shell
-    - 2 x Slide
-    - 1 x Midplate
+For each egg the printed parts list is:
+- 2 x [**Shell**](Assembly%20stls/Shell.stl)
+- 2 x [**Slide**](Assembly%20stls/Slide.stl)
+- 1 x [**Midplate**](Assembly%20stls/Midplate.stl)
 
-    The remainder of the manufactured parts, are made from brass dowelling with a rounded end:
-    - 2 x Runner (⌀5.2mm)
-    - 4 x GravLock (⌀2mm)
+The remainder of the manufactured parts, are made from brass dowelling with a rounded end:
+- 2 x **Runner** (⌀5.2mm)
+- 4 x **GravLock** (⌀2mm)
+
+The **Spring** should be a compression based spring, with an id > ⌀6mm, and an un-compressed length of ~30mm. The _k_-value of the **Spring** will determine the relative fragility of the egg and should be chosen with your experimental set-up in mind. 
 
 ### 2. Construction
     
+1. Affix **Runner** to central extrusion of **Slide** using an epoxy adhesive.
+2. Insert **GravLock** into each hole on the bottom of the **Slides**.
+3. Insert **Slide** into **Shell** ensuring the **GravLocks** are facing the correct direction (rounded end down).
+4. Lubricate the contact surfaces of the **Shell** and **Runner**.
+    - Both _Super Lube Multipurpose Synthetic Grease_ and fibreglass tape have proven to be effective in isolation but combined for best results.
+5. Slot your selected **Spring** over the **Runner**, and the other end over the extrusion on **Midplate**.
+6. Align the edges and adhere the back surface of **Shell** against **Midplate** maintaining gentle pressure.
+7. Repeat this process for the second side.
 
+
+I hope this may be of use to someone, and if there are any questions or if anything about the process is unclear send me a message.
