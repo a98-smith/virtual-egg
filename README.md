@@ -32,7 +32,7 @@ The remainder of the manufactured parts, are made from brass dowelling with a ro
 
 The **Spring** should be a compression based spring, with an id > ⌀6mm, and an un-compressed length of ~30mm. The _k_-value of the **Spring** will determine the relative fragility of the egg and should be chosen with your experimental set-up in mind. 
 
-### 2. Construction
+### 2. Assembly
     
 1. Affix **Runner** to central extrusion of **Slide** using an epoxy adhesive.
 2. Insert **GravLock** into each hole on the bottom of the **Slides**.
@@ -44,4 +44,4 @@ The **Spring** should be a compression based spring, with an id > ⌀6mm, and an
 7. Repeat this process for the second side.
 
 
-I hope this may be of use to someone, and if there are any questions or if anything about the process is unclear send me a message.
+> I hope this may be of use to someone, and if there are any questions or if anything about the process is unclear send me a message.
